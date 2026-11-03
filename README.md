@@ -33,8 +33,8 @@ df = pd.read_csv("/content/titanic_dataset.csv")
 df
 ```
 <img width="699" height="287" alt="image" src="https://github.com/user-attachments/assets/db9e7de0-8070-459f-91f5-876fefb7ca12" />
-```
 
+```
 df.info()
 ```
 <img width="302" height="215" alt="image" src="https://github.com/user-attachments/assets/fd7eef88-5208-468a-9fc3-3624ad744dab" />

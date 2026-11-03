@@ -23,7 +23,49 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-        <<INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS>>
+
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+df = pd.read_csv("/content/titanic_dataset.csv")
+df
+```
+<img width="699" height="287" alt="image" src="https://github.com/user-attachments/assets/db9e7de0-8070-459f-91f5-876fefb7ca12" />
+```
+
+df.info()
+```
+<img width="302" height="215" alt="image" src="https://github.com/user-attachments/assets/fd7eef88-5208-468a-9fc3-3624ad744dab" />
+
+```
+df.describe()
+```
+<img width="494" height="186" alt="image" src="https://github.com/user-attachments/assets/c5c702f2-6182-4d9b-acbe-655dace14bae" />
+
+```
+df.shape
+```
+<img width="243" height="58" alt="image" src="https://github.com/user-attachments/assets/a22dbe5d-b5b0-4a79-95ea-3e36fb74cf1b" />
+
+```
+df.dtypes
+```
+<img width="320" height="297" alt="image" src="https://github.com/user-attachments/assets/0a18cd90-a862-4f96-be40-61b680b595f5" />
+
+```
+print(df.isnull().sum())
+```
+<img width="376" height="200" alt="image" src="https://github.com/user-attachments/assets/ee14058c-6a0b-4de7-8427-e8ce781a8d8a" />
+```
+df.duplicated().sum()
+```
+<img width="266" height="70" alt="image" src="https://github.com/user-attachments/assets/5f496a79-74ae-4e26-b9ee-a76c6df03441" />
+
+
+
+
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>

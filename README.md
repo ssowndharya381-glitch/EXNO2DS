@@ -58,6 +58,7 @@ df.dtypes
 print(df.isnull().sum())
 ```
 <img width="376" height="200" alt="image" src="https://github.com/user-attachments/assets/ee14058c-6a0b-4de7-8427-e8ce781a8d8a" />
+
 ```
 df.duplicated().sum()
 ```

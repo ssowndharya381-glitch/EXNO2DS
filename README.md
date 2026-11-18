@@ -50,6 +50,11 @@ df.shape
 <img width="243" height="58" alt="image" src="https://github.com/user-attachments/assets/a22dbe5d-b5b0-4a79-95ea-3e36fb74cf1b" />
 
 ```
+dt.nunique()
+```
+<img width="325" height="326" alt="image" src="https://github.com/user-attachments/assets/07804e7e-9159-4673-a0cd-4c0f1b0f7f31" />
+
+```
 df.dtypes
 ```
 <img width="320" height="297" alt="image" src="https://github.com/user-attachments/assets/0a18cd90-a862-4f96-be40-61b680b595f5" />
@@ -149,7 +154,8 @@ sns.pairplot(dt)
 <img width="545" height="242" alt="image" src="https://github.com/user-attachments/assets/27a21fe6-3816-42ea-afd9-2e615a5e65bf" />
 
 
-
+## INTERPRETATION:
+            The dataset was analyzed using Exploratory Data Analysis (EDA) techniques. The data was checked for missing values, duplicate records, and outliers. Statistical measures and visualizations were used to understand the data        distribution, identify patterns, and find relationships between variables.
 
 
 ## RESULT
